@@ -1,7 +1,8 @@
 '''
 Created on 28 de mai de 2017
-
 @author: Thomás Henrique
+
+O codigo abaixo apresenta uma relosucao para o desafio back-end Jr (Mars Rover). 
 '''
 
 
