@@ -51,7 +51,11 @@ def exeComandos(coordenadas, pCardeal, cmds):
     print(coordenadas, pCardeal)
     
     
+"""TESTES"""
 exeComandos((1,2), 'N',"LMLMLMLMM")
 exeComandos((3, 3), 'L', "MMRMMRMRRM")
-exeComandos((3, 3), 'L', "MMRMMRMRRMMMLLLR")
+exeComandos((3, 5), 'S', "MLRMMRMMLLR")
+exeComandos((1,1), 'L', "MLMRMRRMMLLR")
+exeComandos((0, 0), 'O', "LMMRMRRMMMLR")
+        
         
