@@ -1,7 +1,7 @@
 '''
 Created on 28 de mai de 2017
 
-@author: tomkz
+@author: Thomás Henrique
 '''
 
 
