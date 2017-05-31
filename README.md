@@ -28,10 +28,10 @@ Expected Output:
 
 1 3 N 5 1 E
 
-# Qual a ideia do código?
+# O que o código faz?
 
-O códgio é bem simples. Ele apenas calcula como o rover irá se movimentar no plator. 
-O código ainda não valida os dados de entrada e não verifica se a posição do rover está no plator.
+O códgio é bem simples. Ele apenas cálcula como o rover irá se movimentar no plator. 
+O código ainda não valida os dados de entrada e não verifica se a posição do rover está dentro ou fora do plator.
 
 
 # Premissas
