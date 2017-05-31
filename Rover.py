@@ -1,14 +1,16 @@
 '''
 Created on 28 de mai de 2017
-@author: Thomás Henrique
 
-O codigo abaixo apresenta uma relosucao para o desafio back-end Jr (Mars Rover). 
+@author: Thomas Henrique - https://github.com/ThomasHSS/Mars-Rovers-Python
+
+O codigo abaixo apresenta uma resolucao para o desafio back-end Jr (Mars Rover). 
+
 '''
 
 
 
-pCardeais = "NLSO"   
-'''Variavel com as siglas das posicoes cardeais (Norte - N, Leste - L, Sul - S, Oeste - O)'''
+pCardeais = "NESW"   
+'''Variavel com as siglas das posicoes cardeais (North - N, East - E, South - S, West - W)'''
 
 movimentos = [(0,1), (1,0), (0, -1), (-1, 0)]   
 """Vetor com as posicoes para a movimentar o rover """
@@ -51,12 +53,11 @@ def exeComandos(coordenadas, pCardeal, cmds):
             
     print(coordenadas, pCardeal)
     
-    
 """TESTES"""
+
 exeComandos((1,2), 'N',"LMLMLMLMM")
-exeComandos((3, 3), 'L', "MMRMMRMRRM")
+exeComandos((3, 3), 'E', "MMRMMRMRRM")
 exeComandos((3, 5), 'S', "MLRMMRMMLLR")
-exeComandos((1,1), 'L', "MLMRMRRMMLLR")
-exeComandos((0, 0), 'O', "LMMRMRRMMMLR")
-        
+exeComandos((1,1), 'E', "MLMRMRRMMLLR")
+exeComandos((0, 0), 'W', "LMMRMRRMMMLR")
         
