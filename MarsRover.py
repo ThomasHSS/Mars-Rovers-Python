@@ -89,7 +89,7 @@ def exeComandos(coordenadas, pCardeal, cmds):
     
 """TESTES"""
 
-plator(5,5)
+plator = (5,5)
 exeComandos((1,2), 'N',"LMLMLMLMM")
 exeComandos((3, 3), 'E', "MMRMMRMRRM")
 
