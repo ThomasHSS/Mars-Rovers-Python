@@ -28,24 +28,20 @@ Expected Output:
 
 1 3 N 5 1 E
 
-# O que o código faz?
-
-O códgio é bem simples. Ele apenas cálcula como o rover irá se movimentar no plator. 
-O código ainda não valida os dados de entrada e não verifica se a posição do rover está dentro ou fora do plator.
-
 
 # Premissas
 - Quando um Planalto é criado, as coordenadas inferiores estão sempre (0, 0)
 - O quadrado diretamente norte de (x, y) é (x, y + 1)
+- O rover não pode sair da área do plator
 
 
 # Execução
 
 Para iniciar o código:
 
-- Importe e configure o arquivo Rover.py no IDE escolhido
+- Importe e configure o arquivo MarsRover.py no IDE escolhido
 - Execute a classe MarsRover, isso irá testar a entrada e saída na linha de comando
 
 # Estensões Futuras
 
-- Validar a entrada de dados e verificar a posição rover.
+Em planejamento.
